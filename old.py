@@ -63,7 +63,7 @@ def get_mode(fpath):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--cookies',type=str,default='./cookies.json')
-    parser.add_argument('-r','--rid',type=str,default='23197314')
+    parser.add_argument('-r','--rid',type=str,default='1733394496')
     parser.add_argument('-t','--txt',type=str,default='./text.txt')
     parser.add_argument('-i','--interval',type=float,default=10)
     parser.add_argument('--mode',choices=['auto','shuoshu','dulunche'],default='auto')
